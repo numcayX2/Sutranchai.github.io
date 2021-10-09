@@ -1,5 +1,5 @@
 function Lia() {
-    document.getElementById("paragraph").innerHTML = "Name : Mitsuki Lia 【WACTOR】";
+    document.getElementById("paragraph").innerHTML = "Name : Mitsuruki Lia 【WACTOR】";
 
     var pic = "Cpicture/Lia.png"
     document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
