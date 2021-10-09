@@ -1,0 +1,68 @@
+.out-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    grid-gap: 20px;
+    margin: 0.5em 0.8em 0.5em 0.8em;
+    margin-bottom: 1em;
+    padding: 1em 0.5em 1em 0.5em;
+    background: rgb(229,251,255);
+    background: linear-gradient(45deg, rgb(180, 240, 227) 0%, rgba(84,240,185,1) 50%, rgba(0,235,136,1) 100%);
+    border-radius: 30px;
+}
+
+.incon {
+    color: transparent;
+    background-color: transparent; 
+    border-color: transparent;
+}
+
+.incon:focus {
+    outline: none;
+}
+
+.incon img {
+    border: 3px solid rgba(217, 217, 217);
+    border-radius: 15px;
+    background-color: white;
+    padding: 0.5em 0.5em 0.5em;
+    margin: 0px 10px;
+    float: left;
+    justify-content: center;
+    transition: .2s;
+}
+
+.wactorlogo img {
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.incon img:hover {
+    box-shadow: 2px 2px 2px 2px rgb(98, 165, 156);
+    transform: scale(1.15);
+}
+
+button:focus {
+    transform: scale(1.15);
+}
+
+.container .row #col-1 {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 25%, rgba(232,232,232,1) 75%, rgb(240, 240, 240) 100%, rgb(252, 252, 252) 100%);
+    border-radius: 15px;
+    padding: 0.5em 0;
+    transition: .2s;
+}
+
+.container .row .col .content #paragraph {
+    font-family: 'kanit', sans-serif;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+/* Responsive Web */
+@media screen and (max-width: 960px) {
+    .wactorlogo img {
+        opacity: 0;
+    }
+}
